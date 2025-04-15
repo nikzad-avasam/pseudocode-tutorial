@@ -1,0 +1,35 @@
+DEFINE number1 = "pls enter number 1 : "
+
+IF ( number1 > 10 ) THEN
+    print " number 1 is grater than 10"
+ELSE
+    print " number 1 is smaller than 10"
+ENDIF
+------- multiple condition -------
+
+DEFINE mark = "pls enter mark 0-20 : "
+
+IF (mark >= 15 )
+    print "your score is A"
+ELSE IF (mark >= 10 )
+    print "your score is B"
+ELSE IF (mark >= 5)
+    print "your score is C"
+ELSE IF (mark >= 0)
+    print "your score is D"
+ENDIF
+
+------- nested condition -------
+
+DEFINE age = "enter age : "
+DEFINE isStudent = FALSE
+
+IF ( age > 7 AND age < 20 )
+    IF ( isStudent == TRUE )
+        print "you have 7-20 age and you are student"
+    ELSE 
+        print "you have 7-20 age and you are NOT student "
+ELSE 
+    print "you are not in 7-20 age"
+
+ENDIF

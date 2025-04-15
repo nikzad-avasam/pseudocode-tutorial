@@ -1,0 +1,15 @@
+DEFINE x = 0
+
+DO
+   print "do while is working"
+   x = x + 1 
+REPEAT WHILE (x < 5)
+END
+
+// output
+
+1-do while is working x=1
+2- do while is working x=2 
+3- do while is working x=3
+4- do while is working x=4 
+5- do while is working x=2 

@@ -1,0 +1,23 @@
+--- simple for ---
+FOR i=1 TO 10 DO 
+   print "hello world"
+ENDFOR
+
+--- with a step ---
+FOR i=1 TO 10 STEP 2 DO 
+   print "hello world"
+ENDFOR
+
+--- while loop --- 
+DEFINE x = 0
+WHILE (x < 5) DO 
+    print "while is working"
+    x = x + 1
+ENDWHILE
+
+while is working x = 1 
+while is working x = 2
+while is working x = 3
+while is working x = 4
+while is working x = 5
+
