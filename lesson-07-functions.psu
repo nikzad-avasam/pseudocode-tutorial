@@ -1,0 +1,41 @@
+// simple function 
+FUNCTION showname
+    print "name : ali "
+    print "name is sam"
+ENDFUNCTION
+
+showname()
+
+// output
+name : ali 
+name is sam
+------------------------------
+// function with input but no output
+DEFINE sum = 0 
+FUNCTION sumnumbers(number1 , number2 )
+    sum = number1 + number2
+    print "sum is : " + sum
+ENDFUNCTION
+
+sumnumbers(10,25)
+// output 
+sum is 35
+
+sumnumbers(1,100)
+// output 
+sum is 101
+------------------------------
+// function with input and output 
+DEFINE x = 0
+DEFINE b = 0 
+FUNCTION calculate(num1 , num2)
+    x = num1 * num2
+    RETURN x
+ENDFUNCTION
+
+b = calculate(2,5)
+print b
+
+// output
+10
+
