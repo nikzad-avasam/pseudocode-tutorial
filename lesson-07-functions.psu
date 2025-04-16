@@ -19,7 +19,7 @@ ENDFUNCTION
 
 sumnumbers(10,25)
 // output 
-sum is 35
+sum is :35
 
 sumnumbers(1,100)
 // output 
