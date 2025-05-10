@@ -1,0 +1,18 @@
+class Car
+    // properties (attributes) متغیرها
+    // methods توابع درون کلاس 
+    private string color 
+    private string name
+    private int max-speed
+
+    public FUNCTION showName
+        print "method called from object"
+    ENDFUNCTION
+
+
+Car peykan = new Car()
+peykan.showName()
+
+// output 
+method called from object
+
