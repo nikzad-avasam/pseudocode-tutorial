@@ -5,9 +5,9 @@ class Car
     private string name
     private int max-speed
 
-    public FUNCTION showName
+    public METHOD showName
         print "method called from object"
-    ENDFUNCTION
+    ENDMETHOD
 
 
 Car peykan = new Car()

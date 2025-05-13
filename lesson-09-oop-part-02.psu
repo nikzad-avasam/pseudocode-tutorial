@@ -1,0 +1,52 @@
+// Access Modifires in Object Oriented Programming 
+// public private protected 
+// inside class - derived class - outside the class 
+
+1. Public 
+
+class Animal 
+    public strting name
+    public METHOD makeSound()
+        print "some generic animal sound"
+    ENDMETHOD  
+end class
+
+
+Animal dog = new Animal()
+dog.name = 'my dog'
+dog.makeSound()
+
+// output : 
+some generic animal sound
+
+2. Private 
+class BankAccount
+    private float balance = 1000.56
+
+    public METHOD mojodi()
+        print balance
+    ENDMETHOD
+endclass
+
+BankAccount aliAccount = new BankAccount()
+aliAccount.mojodi()
+
+// output :
+1000.56
+
+3. Protected
+class Car
+    protected int speed = 1000
+endclass
+
+class Benz extends Car 
+    public METHOD showSpeed()
+        print speed 
+    ENDMETHOD
+endclass
+
+
+Benz benz01 = new Benz()
+benz01.showSpeed()
+// output : 
+1000
