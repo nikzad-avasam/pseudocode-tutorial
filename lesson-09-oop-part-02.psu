@@ -1,6 +1,6 @@
 // Access Modifires in Object Oriented Programming 
 // public private protected 
-// inside class - derived class - outside the class 
+// inside class - derived (extends) class - outside the class 
 
 1. Public 
 

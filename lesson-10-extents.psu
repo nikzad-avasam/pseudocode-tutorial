@@ -1,0 +1,64 @@
+class Animal 
+    public strting name
+    protected string color
+
+    public METHOD makeSound()
+        print "some generic animal sound"
+    ENDMETHOD  
+
+end class
+
+class Dog extends Animal
+        public string race
+
+        color = "red"
+
+        public METHOD eat()
+          print "dog is eating something...."
+        ENDMETHOD  
+
+        public METHOD showColor()
+            print color
+        ENDMETHOD
+
+end class
+
+
+Dog dog01 = new Dog()
+dog01.name  = "max"
+dog01.race = "chivava race"
+
+
+
+print dog01.name ===> max
+print dog01.race ===> chivava race 
+
+dog01.makeSound() ===> some generic animal sound
+dog01.eat() ===> dog is eating something....
+
+dog01.color = "red" ===> ERROR
+dog01.showColor() ===> red
+
+
+------------
+PHP 
+class Child extends Parent{}
+
+C++ 
+class Child : Parent{}
+
+C# 
+class Child : Parent{}
+
+Java 
+class Child extends Parent{}
+
+Kotlin 
+class Child : Parent()
+
+Python
+class Child(Parent):
+
+Javascript 
+class Child extends Parent{}
+
